@@ -4,7 +4,7 @@ tagline: 'A Jekyll theme based on Lanyon'
 description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
 baseurl: "/lanyon"
 url: http://codinfox.github.io
-logo: '/public/logo.png'
+logo: 'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FbnwsZW%2FbtqDmmFtoQi%2Fhkni3JlyOkRspQoKROC3j0%2Fimg.png'
 
 # Site configurations
 gems:
@@ -25,7 +25,7 @@ version: 1.0.0
 # About/contact
 author:
   name: Codinfox
-  description: A passionate <strong>developer and researcher</strong>, learning to be a giant.
+  description: 두루두루 <strong> 신나게</strong>, 좀 못하면 어때요.
   gravatar: 3c2986ad7ac1f2230ea3596f44563328 # md5 hash of your email address
   contact:
     linkedin:  https://www.linkedin.com/in/lizhihao
@@ -37,12 +37,12 @@ author:
 
 # Navigation (2nd level links supported)
 nav:
-  Home:           
+  home:           
     - '/'
-  Blog:           
-    - '/blog/'
-    - { Categories: '/blog/categories/' }
-    - { Tags: '/blog/tags/' }
+  categories:           
+    - '/categories/'
+    - { TIL: '/categories/TIL/' }
+    - { MARKETING: '/categories/MARKETING/' }
   About:          
     - '/about/'
   Github Project: 
